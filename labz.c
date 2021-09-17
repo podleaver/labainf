@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 10
-void zamena(int *a, int b)
+void zamena(int *a, int b)// Функция для перестановки элементов
 {
 	int i = 1;
 	int tmp;
