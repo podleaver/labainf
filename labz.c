@@ -2,9 +2,9 @@
 #define N 10
 void zamena(int *a, int b)// Функция для перестановки элементов
 {
-	int i = 1;
+	int i;
 	int tmp;
-	for (i; i <= b; i++)
+	for (i = 1; i <= b; i++)
 	{
 		tmp = a[i-1];
 		a[i-1]=a[N-i];
